@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>easy wire</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/821a7a12c5.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <section class="sidebar" id="navLinks">
+                <nav>
+                    <!-- <div class="icon"> -->
+                    <i class="fa-solid fa-xmark" class="btn-close" onclick="closemenu()"></i>
+                    <i class="fa-solid fa-bars" class="btn-open" onclick="openmenu()"></i>
+                    <!-- </div> -->
+                    <div class="logo">
+                        <a href="index.html"><img src="images/polymer.svg"></a>
+                        <h2>easywire</h2>
+                    </div>
+                    <div class="nav-links">
+                        <ul>
+                            <li><a href=""><i class="ri-home-8-line"></i>  Home</a></li>
+                            <li><a href=""><i class="ri-time-line"></i>  History</a></li>
+                            <li><a href=""><i class="ri-money-dollar-box-line"></i>  Balances</a></li>
+                            <li><a href=""><i class="ri-bank-card-2-line"></i>  Cards</a></li>
+                            <li><a href=""><i class="ri-reply-all-line"></i> Recipients </a></li>
+                            <li><a href=""><i class="ri-article-fill"> </i> Reports</a></li>
+                            <li><a href=""><i class="ri-tools-fill"></i>Settings</a></li>
+                            <li><a href=""><i class="ri-question-fill"></i>  Help</a></li>
+                            <li><a href=""><i class="ri-reddit-fill"></i> Privacy</a></li>
+                        </ul>
+                    </div>   
+                </nav>
+            </section>
+         
+            <section class="main">
+                <section class="first">  
+                    <section class="search">
+                        <div class="profile">
+                            <i class="ri-search-line"></i> <input type="text" placeholder= "Search transaction">
+                        </div>
+                        <div class="profile">
+                            <i class="ri-notification-3-line"></i>
+                            <img src="images/Frame 11.svg">
+                            <h4>Koinonia</h4>
+                            <i class="ri-arrow-drop-down-line"></i>
+                        </div>
+                    </section> 
+                    <!-----profile-->
+                    <!-- <div class="line"></div> -->
+                    <hr style="width: 80%; color:#7A7373">
+                
+                    <div class="profile">
+                        <div class="profile.2">
+                            <div class="profile-flex">
+                                <div>
+                                    <img src="images/Frame 11.svg">
+                                </div>
+                                <div class="profile-side">
+                                    <h2>Good morning, Koinonia</h2>
+                                    <h4>Duke Street studio <i class="ri-star-half-s-line"></i> Verified Account</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <button type="button" style="background-color: #ffffff; color: #494747">Add money</button>
+                            <button type="button" style="background-color: #36a1c3; color: #ffffff;">Send money</button>
+                        </div>
+                    </div>
+                
+                
+                </section>
+                <!--account-->
+                <section class="second"> 
+                    <div class="overview">
+                        <h4>Overview</h4>
+                    </div> 
+                    <div class="row">
+                        <div class="account-col">
+                            <h6><i class="ri-scales-3-fill"></i>Account balance</h6>
+                            <p>$375,658,000.00</p>
+                            <a href="">View all</a>
+                        </div>
+                        <div class="account-col">
+                            <h6><i class="ri-recycle-line"></i>Pending</h6>
+                            <p>-$3,658.00</p>
+                            <a href="">View all</a>
+                        </div>
+                        <div class="account-col">
+                            <h6>Processed(last 30 days)</h6>
+                            <p>-$895,748.00</p>
+                            <a href="">View all</a>
+                        </div>
+                    </div>
+                    
+                    <!--recent activity--->
+                    <div class="recent">
+                        <h3>Recent Activity</h3> 
+                    </div>
+                    <section class="table">
+                        <table style="width: 100%;">
+                            <tr>
+                            <th><h6>TRANSACTION</h6></th>
+                            <th><h6>AMOUNT</h6></th>
+                            <th><h6>STATUS</h6></th>
+                            <th><h6>DATE</h6></th>
+                            </tr>
+                            <tr>
+                                <td><h6><i class="ri-money-dollar-box-line"></i>Payment to Molly Sanders</h6></td>
+                                <td>$20,000 USD</td>
+                                <td>
+                                    <span style="background-color: #d0f8cf;border-radius: 25%; width: 1px; height: 1px; color: #0d8c49;">Success</span>
+                                </td>
+                                <td>July 11, 2022</td>
+                            </tr>
+                            <tr>
+                                <td><h6><i class="ri-money-dollar-box-line"></i>Payment to Oyin Esther</h6></td>
+                                <td>$105,000 USD</td>
+                                <td> <span style="background-color: #ffe7aa;
+                                    border-radius: 25%; border-width: 1px; border-top: 1px; color: #ab4b15;">Processing</span>
+                                    </td>
+                                <td>July 11,2022</td>
+                            </tr>
+                            <tr>
+                                <td><h6><i class="ri-money-dollar-box-line"></i> Payment to Mikel Fash</h6></td>
+                                <td>$90,000 USD</td>
+                                <td><span style="background-color: #d0f8cf;
+                                border-radius: 25%; border-width: 2px; border-top: 2px; color: #0d8c49;" >Success</td>
+                                <td>July 11,2022</td>
+                            </tr>
+                            <tr>
+                                <td><h6><i class="ri-money-dollar-box-line"></i>Payment to Lanre Adex</h6></td>
+                                <td>$25,000 USD</td>
+                                <td><span style="background-color: #d0f8cf;
+                                        border-radius: 25%; width: 1px; color: #0d8c49;">Success</td>
+                                <td>July 11,2022</td>
+                            </tr>
+                            <tr>
+                                <td><h6><i class="ri-money-dollar-box-line"></i>Payment to Molly Sapa</h6></td>
+                                <td>$20,000 USD</td>
+                                <td><span style="background-color: #f0f0f0;
+                                border-radius: 25%; width: 1px; top: 0px; color: #6e7571;">Failed</td>
+                                <td>July 11,2022</td>
+                            </tr>
+                            <tr>
+                                <td><h6><i class="ri-money-dollar-box-line"></i>Payment to Molly Sanders</h6></td>
+                                <td>$500 USD</td>
+                                <td><span style="background-color: #ffe7aa;
+                                border-radius: 25%; border-width: 2px; border-top: 2px; color: #ab4b15;">Processing</td>
+                                <td>July 11,2022</td>
+                            </tr>
+                        </table>
+                    </section>
+                </section>      
+                </section> 
+        </div>
+         <!---Javascipt for Toggle Menu--->
+        <script>
+            var menu=document.getElementById("navLinks")
+            function openmenu(){
+                navLinks.style.left = "0";
+            }
+            function closemenu(){
+                navLinks.style.left = "-200px";
+            }
+        </script> 
+    </body>
+</html>
